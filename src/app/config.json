@@ -1,0 +1,22 @@
+{
+  "name": "Restricted Data Mode",
+  "supportEmail": "integrations@geotab.com",
+  "version": "0.0.1",
+  "items": [{
+    "url": "restrictedDataMode.html",
+    "path": "DriveAppLink/",
+    "menuName": {
+      "en": "Restricted Data Mode"
+    },
+    "icon": "images/icon.svg"
+  }],
+  
+  "onStartup": true,
+  "onShutdown": true,
+  "dev": {
+    "root": "restrictedDataMode",
+    "dist": {
+      "host": "https://www.example.com/myaddin/"
+    }
+  }
+}
